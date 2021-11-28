@@ -1,1 +1,1 @@
-# My-first-spring-project
+# MyFirstSpringProject
