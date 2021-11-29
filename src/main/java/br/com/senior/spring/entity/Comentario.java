@@ -16,12 +16,15 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class Pessoa {
+public class Comentario {
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
 	@Column(nullable = false)
-	private String nome;
+	private String conteudo;
 
+	@Column(nullable = false)
+	private Pessoa pessoa;
 }
